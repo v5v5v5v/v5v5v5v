@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <title>好记性不如烂笔头</title>
-  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -49,16 +48,7 @@
         fuzzySearch: true,
         // 搜索结果中是否显示文件路径
         showPath: true,
-      },
-      plugins: [
-        function (hook) {
-          hook.doneEach(function () {
-            document.querySelectorAll('img').forEach(img => {
-              img.crossOrigin = 'anonymous'
-            })
-          })
-        }
-      ]
+      }
     }
   </script>
   <!-- Docsify v4 -->
