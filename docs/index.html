@@ -48,14 +48,22 @@
         fuzzySearch: true,
         // 搜索结果中是否显示文件路径
         showPath: true,
-      }
+      },
+      // 代码行号插件配置
+      // plugins: [
+      //   DocsifyPrismLineNumbers
+      // ]
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <!-- 代码块语法解析 -->
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
+  <!-- <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script> -->
+  <script src="https:///prismjs@v1.x/components/prism-core.min.js"></script>
+  <script src="https:///prismjs@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
+  <!-- 1. 代码行号插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-prism-line-numbers@1"></script>
   <!-- 搜索插件 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <!-- 图片放大缩小（zoom-image） -->
