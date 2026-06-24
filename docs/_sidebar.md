@@ -3,6 +3,7 @@
     * [Node.js](程序使用/NPM.md)
     * [docsify](程序使用/docsify.md)
     * [Markdown语法](程序使用/Markdown语法.md)
+    * [MacOS](程序使用/MacOS.md)
 
 * 日常生活
     * [下厨房](生活知识/下厨房.md)
@@ -21,3 +22,4 @@
 
 * 乱七八糟
     * [影视记录](/乱七八糟/影视记录.md)
+    * [测试文件](/乱七八糟/测试.md)
