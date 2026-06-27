@@ -1,6 +1,6 @@
 ## 克隆Github的项目到本地
 
-```git
+```bash
 // git clone 仓库地址
 git clone https://github.com/v5v5v5v/docsify.git
 ```
@@ -25,6 +25,15 @@ git add .
 git commit -m "first commit"
 git push
 ```
+
+## 命令太长了，使用alias
+
+1.    `!` 让 Git 把后面的内容当作 shell 来执行
+    
+    ```shell
+    git config --global alias.tui '!git add 文件地址 && git commit -m "update" && git push'
+    ```
+1.    `git tui`就可以使用
 
 ## 常用命令
 

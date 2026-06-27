@@ -26,5 +26,6 @@ docsify init ./
 需本地安装docsify才能使用
 
 ```bash
-docsify serve ./docs
+// 需要进入docs文件夹
+docsify serve 
 ```

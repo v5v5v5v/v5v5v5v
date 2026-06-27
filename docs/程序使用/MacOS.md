@@ -18,6 +18,51 @@
      sudo spctl --master-enable
      ```
 
+## xattr的使用(解除DMG文件的隔离)
+
+1.   查看
+     ```bash
+     xattr 程序名
+     ```
+2.   删除隔离属性
+     ```bash
+     xattr -d com.apple.quarantine 程序名
+     ```
+
+## alias终端命令
+
+>   常用命令起一个短名字，方便你少打字、少记参数，以下方式**永久生效**
+
+1.   打开终端，查看是否存在`.zshrc`文件
+
+     ```bash
+     cat ~/.zshrc
+     ```
+
+2.   **未存在**，创建并打开`.zshrc`文件
+
+     ```bash
+     touch ~/.zshrc && open ~/.zshrc
+     ```
+
+3.   编辑简写命令
+
+     ```bash
+     alias 别名='原命令' // 如 alias ll='ls -al'
+     ```
+
+4.   让命令生效
+
+     ```bash
+     source ~/.zshrc
+     ```
+
+5.   查看所有的简写命令
+
+     ```bash
+     alias
+     ```
+
 ## DeekSeek-Tui的使用
 
 ```bash

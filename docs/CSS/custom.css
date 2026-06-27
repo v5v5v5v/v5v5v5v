@@ -1,41 +1,41 @@
 html {
-  font-size: 16px;
+    font-size: 18px;
 }
 
 body {
-  font-size: 15px;
-  line-height: 1.7;
+    font-size: 16px;
+    line-height: 1.3rem;
 }
 
 .markdown-section {
-  max-width: 860px;
-  padding: 20px 30px 100px;
+    max-width: 860px;
+    padding: 20px 30px 100px;
 }
 
 .markdown-section h1 {
-  font-size: 2.2rem;
-  margin: 0 0 1rem;
+    font-size: 2.2rem;
+    margin: 0 0 1rem;
 }
 
 .markdown-section h2 {
-  font-size: 1.75rem;
-  margin: 35px 0 15px;
-  padding-bottom: 0.5em;
-  border-bottom: 1px solid #ddd;
+    font-size: 1.75rem;
+    margin: 35px 0 15px;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #ddd;
 }
 
 .markdown-section h3 {
-  font-size: 1.4rem;
-  margin: 20px 0 7px;
+    font-size: 1.4rem;
+    margin: 20px 0 7px;
 }
 
 .markdown-section h4 {
-  font-size: 1.2rem;
+    font-size: 1.2rem;
 }
 
 .markdown-section h5,
 .markdown-section h6 {
-  font-size: 1rem;
+    font-size: 1rem;
 }
 
 .markdown-section p,
@@ -43,20 +43,25 @@ body {
 .markdown-section ol,
 .markdown-section blockquote,
 .markdown-section table {
-  margin: 0.8em 0;
-  line-height: 1.7;
+    margin: 0.8em 0;
+    line-height: 1.2rem;
 }
 
 .markdown-section blockquote {
-  border-left: 4px solid #42b983;
-  background: rgba(66, 185, 131, 0.08);
-  padding: 10px 15px;
-  color: #666;
+    border-left: 4px solid #42b983;
+    background: rgba(66, 185, 131, 0.08);
+    padding: 10px 15px;
+    color: #666;
 }
 
 .markdown-section code,
 .markdown-section pre,
-.markdown-section pre > code {
-  font-family: Consolas, "Courier New", monospace;
-  font-size: 0.92rem;
+.markdown-section pre>code {
+    font-family: "JetBrains Mono", "Noto Sans Mono", Menlo, Consolas, monospace;
+    font-size: 1rem;
+    margin: 0.5em 0;
+    padding: 5px 10px;
+    /* 按需调内边距，让代码不要贴边框 */
+    border-radius: 20px;
+    /* 可选加圆角更好看 */
 }
