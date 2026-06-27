@@ -29,11 +29,20 @@ git push
 ## 命令太长了，使用alias
 
 1.    `!` 让 Git 把后面的内容当作 shell 来执行
-    
-    ```shell
-    git config --global alias.tui '!git add 文件地址 && git commit -m "update" && git push'
-    ```
+          
+      ```shell
+      git config --global alias.tui '!git add 文件地址 && git commit -m "update" && git push'
+      ```
+
 1.    `git tui`就可以使用
+
+1.    查看所有alias
+
+      ```bash
+      git config --global --get-regexp alias
+      ```
+
+      
 
 ## 常用命令
 
